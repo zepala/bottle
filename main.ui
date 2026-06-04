@@ -270,7 +270,7 @@ d'exécuter le &quot;Query VTEGAZ&quot;</string>
   <tabstop>ckExpand</tabstop>
   <tabstop>ckTout</tabstop>
   <tabstop>ckHide</tabstop>
-  <tabstop>btQuitter</tabstop>
+  <tabstop>btApply</tabstop>
   <tabstop>tvResultat</tabstop>
  </tabstops>
  <resources/>
