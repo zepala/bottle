@@ -249,9 +249,9 @@ d'exécuter le &quot;Query VTEGAZ&quot;</string>
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="btQuitter">
+        <widget class="QPushButton" name="btApply">
          <property name="text">
-          <string>Quitter</string>
+          <string>Appliquer</string>
          </property>
         </widget>
        </item>
@@ -270,12 +270,9 @@ d'exécuter le &quot;Query VTEGAZ&quot;</string>
   <tabstop>ckExpand</tabstop>
   <tabstop>ckTout</tabstop>
   <tabstop>ckHide</tabstop>
-  <tabstop>btQuitter</tabstop>
+  <tabstop>btApply</tabstop>
   <tabstop>tvResultat</tabstop>
  </tabstops>
  <resources/>
  <connections/>
- <slots>
-  <slot>btQuit()</slot>
- </slots>
 </ui>
