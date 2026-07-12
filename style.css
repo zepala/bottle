@@ -1,0 +1,101 @@
+@media print {
+  .noprint {
+    display: none;
+  }
+}
+
+h2 {
+  display:block;
+  color:#FFFFFF;
+  background-color: #444444;
+  padding: 10px;
+}
+
+h3 {
+  padding-left: 1em;
+}
+
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    table-layout: fixed;
+    width:96%;
+    border-collapse: collapse;
+    margin-left: 2em;
+  }
+
+  table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+    text-align: center;
+  }
+
+  table.blueTable td {
+    border: 1px solid #AAAAAA;
+    padding: 1px 2px;
+    text-align: center;
+  }
+
+  table.blueTable table.blueTable table.blueTable td:first-child, th:first-child {
+    width: 6em;
+  }
+
+  table.blueTable td:nth-child(n+2):nth-child(-n+3), table.blueTable th:nth-child(n+2):nth-child(-n+3) {
+    width: 5em;
+  }
+
+  table.blueTable td:nth-child(-n+4), table.blueTable th:nth-child(-n+4) {
+    width: 6em;
+  }
+
+  table.blueTable tbody td {
+    font-size: 13px;
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  table.blueTable tbody td.description {
+    text-align: left;
+  }
+
+  table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+
+  table.blueTable thead {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+  }
+
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
